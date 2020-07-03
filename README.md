@@ -35,7 +35,7 @@ this colorscheme works best with [vim-polyglot](https://github.com/sheerun/vim-p
 Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'ghifarit53/tokyonight.vim'
+Plug 'ghifarit53/tokyonight-vim'
 ```
 
 add this to your .vimrc
