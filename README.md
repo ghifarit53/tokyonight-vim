@@ -45,12 +45,37 @@ set termguicolors
 
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
-let g:tokyonight_disable_italic_comment = 1
 
 colorscheme tokyonight
 ```
 
 if `g:tokyonight_style` isn't specified, the default `night` variant will be used
+
+### Available configuration
+
+**Note:** The configuration options should be placed before `colorscheme tokyonight` .
+
+- `g:tokyonight_style`: Customize the style of this color scheme.
+  - Available values: `'night'`, `'storm'`
+  - Default value: `'night'`
+- `g:tokyonight_transparent_background`: Set to `1` to enable transparent background.
+  - Available values: `0`, `1`
+  - Default value: `0`
+- `g:tokyonight_menu_selection_background`: Control the background color of `PmenuSel` and `WildMenu` .
+  - Available values: `'green'`, `'red'`, `'blue'`
+  - Default value: `'green'`
+- `g:tokyonight_disable_italic_comment`: Set to `1` to disable italic in `Comment` .
+  - Available values: `0`, `1`
+  - Default value: `0`
+- `g:tokyonight_enable_italic`: Set to `1` to italicize keywords. This option is designed to use with fonts that support cursive italic styles, for example [Fira Code iCursive Op](https://github.com/sainnhe/icursive-nerd-font).
+  - Available values: `0`, `1`
+  - Default value: `0`
+- `g:tokyonight_cursor`: Customize the cursor color, only works in GUI clients.
+  - Available values: `'auto'`, `'red'`, `'green'`, `'blue'`
+  - Default value: `'auto'`
+- `g:tokyonight_current_word`: Some plugins can highlight the word under current cursor(for example [neoclide/coc-highlight](https://github.com/neoclide/coc-highlight)), you can use this option to control their behavior.
+  - Available values: `'bold'`, `'underline'`, `'italic'`, `'grey background'`
+  - Default value: `'grey background'` when not in transparent mode, `'bold'` when in transparent mode.
 
 ### Lightline
 
@@ -59,6 +84,8 @@ this theme also has support for [lightline](https://github.com/itchyny/lightline
 ```vim
 let g:lightline = {'colorscheme' : 'tokyonight'}
 ```
+
+lightline style will follow the chosen colorscheme style
 
 ### Port
 
