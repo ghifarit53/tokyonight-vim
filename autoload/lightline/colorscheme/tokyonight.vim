@@ -1,6 +1,6 @@
 " =============================================================================
-" URL: https://github.com/ghifarit53/tokyonight.vim/
-" Filename: autoload/lightline/colorscheme/tokyonight.vim
+" URL: https://github.com/ghifarit53/tokyonight-vim/
+" Filename: autoload/lightline/colorscheme/tokyonight-vim
 " Author: Ghifari Taqiuddin
 " Email: mghifarit53@gmail.com
 " License: MIT License
