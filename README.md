@@ -1,15 +1,5 @@
 <p align="center">
-	<img src="pictures/tokyonight-logo.png">
-</p>
-
-<h2 align="center">night</h2>
-<p align="center">
-	<img src="pictures/tokyonight-night.png">
-</p>
-
-<h2 align="center">storm</h2>
-<p align="center">
-	<img src="pictures/tokyonight-storm.png">
+	<img src="pictures/screenshot.png">
 </p>
 
 ### About
