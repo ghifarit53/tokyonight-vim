@@ -2,6 +2,8 @@
 	<img src="pictures/screenshot.png">
 </p>
 
+for more screenshot, check [here](./pictures)
+
 ### About
 
 Originally by [enkia](https://github.com/enkia/tokyo-night-vscode-theme)
