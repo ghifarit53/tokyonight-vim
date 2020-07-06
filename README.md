@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="pictures/screenshot.png">
+	<img src="https://raw.githubusercontent.com/ghifarit53/tokyonight-vim/master/pictures/screenshot.png">
 </p>
 
 for more screenshot, check [here](./pictures)
