@@ -69,15 +69,22 @@ if `g:tokyonight_style` isn't specified, the default `night` variant will be use
   - Available values: `'bold'`, `'underline'`, `'italic'`, `'grey background'`
   - Default value: `'grey background'` when not in transparent mode, `'bold'` when in transparent mode.
 
-### Lightline
+### Lightline & Airline
 
-this theme also has support for [lightline](https://github.com/itchyny/lightline.vim)
+This theme also has support for [lightline](https://github.com/itchyny/lightline.vim) as well as [airline](https://github.com/vim-airline/vim-airline).
+
+To enable lightline support:
 
 ```vim
 let g:lightline = {'colorscheme' : 'tokyonight'}
 ```
+To enable airline support:
 
-lightline style will follow the chosen colorscheme style
+```vim
+let g:airline_theme = "tokyonight"
+```
+
+The lightline and airline styles will both follow the chosen colorscheme style.
 
 ### Port
 
