@@ -1,0 +1,39 @@
+! general
+*foreground: #a9b1d6
+*background: #24283b
+*cursorColor: #a9b1d6
+
+! terminal padding color
+*borderColor: #24283b
+
+! black
+*color0: #24283b
+*color8: #525b87
+
+! red
+*color1: #F7768E
+*color9: #ff7a92
+
+! green
+*color2: #9ECE6A
+*color10: #a5d96f
+
+! yellow
+*color3: #E0AF68
+*color11: #edba6d
+
+! blue
+*color4: #7AA2F7
+*color12: #7da6ff
+
+! magenta
+*color5: #9a7ecc
+*color13: #a586d9
+
+! cyan
+*color6: #4abaaf
+*color14: #4abaaf
+
+! white
+*color7: #acb0d0
+*color15: #b6badb
