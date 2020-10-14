@@ -1,0 +1,160 @@
+*tokyonight.txt*			Modified: 2020 Oct
+
+
+	tokyonight.vim - Dark Colorscheme by Ghifari Taqiuddin~
+
+
+							*tokyonight*
+A clean, dark vim theme that celebrates the lights of downtown Tokyo at
+night based on a VSCode theme with the same name.
+
+Tokyonight now comes with two variants, `night` and `storm`. The only
+difference being the background color where the `storm` variant gets a
+lighter color.
+
+Features:
+ - Support for numerous file types and plugin
+ - Customizable
+ - Italic support (https://github.com/sainnhe/icursive-nerd-font)
+ - Themes for |status-line| plugins
+
+For screenshots, updates and more details please visit:
+https://github.com/ghifarit53/tokyonight-vim
+
+Originally by enkia:
+https://github.com/enkia/tokyo-night-vscode-theme
+
+1. Install				|tokyonight-install|
+2. Options			    	|tokyonight-options|
+3. Airline and lightline Themes		|tokyonight-statusline|
+4. Ports				|tokyonight-ports|
+5. Credits			    	|tokyonight-credits|
+6. License				|tokyonight-licence|
+
+==============================================================================
+1. Install						*tokyonight-install*
+
+This colorscheme works best with vim-polyglot. Please install it first:
+https://github.com/sheerun/vim-polyglot
+
+Note: this colorscheme only support true colors!
+
+Tokyonight can be installed by maually moving the files to their appropriated
+directories, using the native |packages| system or with a custom plugin
+manager. For |vim-plug|: >
+
+	Plug 'ghifarit53/tokyonight-vim'
+<
+Then, add this to your |.vimrc|: >
+
+	set termguicolors
+
+	let g:tokyonight_style = 'night' " available: night, storm
+	let g:tokyonight_enable_italic = 1
+
+	colorscheme tokyonight
+<
+If `g:tokyonight_style` isn't specified, the default `night` variant will be
+used. Further details on options and defaults are explained in
+|tokyonight-options|.
+
+==============================================================================
+2. Options						*tokyonight-options*
+
+Supported options can be controlled by setting global variables (|g:|).
+Boolean options are set with numbers `1` or `0` for true and false,
+respectively. Options should be placed before setting the colorscheme.
+
+ *g:neodark#background*		{string} Default: ''
+				Hex color value used as custom background. >
+				    let g:neodark#background = '#202020'
+<
+
+ *g:tokyonight_style*		{string} Default: `'night'`
+				Available values: `'night'`, `'storm'`.
+				Customize the style of this color scheme.
+
+ *g:tokyonight_transparent_background*
+				{boolean} Default: 0
+				Set to 1 to enable transparent background.
+
+ *g:tokyonight_menu_selection_background*
+				{string} Default: `'green'`
+				Available values: `'green'`, `'red'`,
+				`'blue'`.
+				Control the background color of
+				|hl-PmenuSel| and |hl-WildMenu|.
+
+ *g:tokyonight_disable_italic_comment*
+				{boolean} Default: 0
+				Set to 1 to disable italic in comments.
+
+ *g:tokyonight_enable_italic*	{boolean} Default: 0
+				Set to 1 to italicize keywords. This option
+				is designed to use with fonts that support
+				cursive italic styles, for example
+				Fira Code iCursive Op
+				https://github.com/sainnhe/icursive-nerd-font.
+
+ *g:tokyonight_cursor*		{string} Default: `'auto'`
+				Available values: `'auto'`, `'red'`,
+				`'green'`, `'blue'`.
+				Customize the cursor color. Only works in GUI
+				clients.
+
+ *g:tokyonight_current_word*	{string} Default: `'grey background'` (when
+						    not in transparent mode)
+						  `'bold'` (when in
+						    transparent mode)
+				Available values: `'bold'`, `'underline'`,
+				`'italic'`, `'grey background'`.
+				Some plugins can highlight the word under
+				current cursor (i.e. neoclide/coc-highlight
+				https://github.com/neoclide/coc-highlight),
+				you can use this option to control their
+				behavior.
+
+==============================================================================
+3. Airline and lightline Themes				*tokyonight-statusline*
+				      *tokyonight-airline* *tokyonight-lightline*
+
+Themes for |Airline| and |lightline| are included. To enable in lightline: >
+
+	let g:lightline = {'colorscheme' : 'tokyonight'}
+<
+To enable in Airline: >
+
+	let g:airline_theme = "tokyonight"
+<
+The lightline and Airline styles will both follow the chosen colorscheme
+style.
+
+ - Airline:   https://github.com/vim-airline/vim-airline
+ - lightline: https://github.com/itchyny/lightline.vim
+
+==============================================================================
+4. Ports						*tokyonight-terminal*
+
+Alacritty by zatchheems:
+https://github.com/zatchheems/tokyo-night-alacritty-theme
+
+.Xresources file available if you want to port it.
+Tell me if you made a port and i'll list them here.
+https://github.com/ghifarit53/tokyonight-vim/tree/master/port
+
+==============================================================================
+5. Credits						*tokyonight-credits*
+
+Sainnhe, for the color template file
+https://github.com/sainnhe
+
+Enkia, for the color palettes
+https://github.com/enkia
+
+==============================================================================
+6. License						*tokyonight-licence*
+
+MIT License © Ghifari Taqiuddin
+https://github.com/ghifarit53/tokyonight-vim/blob/master/LICENSE
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
