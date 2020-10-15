@@ -65,11 +65,6 @@ Supported options can be controlled by setting global variables (|g:|).
 Boolean options are set with numbers `1` or `0` for true and false,
 respectively. Options should be placed before setting the colorscheme.
 
- *g:neodark#background*		{string} Default: ''
-				Hex color value used as custom background. >
-				    let g:neodark#background = '#202020'
-<
-
  *g:tokyonight_style*		{string} Default: `'night'`
 				Available values: `'night'`, `'storm'`.
 				Customize the style of this color scheme.
