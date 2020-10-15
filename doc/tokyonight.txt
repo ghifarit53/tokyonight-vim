@@ -128,7 +128,7 @@ style.
  - lightline: https://github.com/itchyny/lightline.vim
 
 ==============================================================================
-4. Ports						*tokyonight-terminal*
+4. Ports						*tokyonight-ports*
 
 Alacritty by zatchheems:
 https://github.com/zatchheems/tokyo-night-alacritty-theme
