@@ -111,7 +111,7 @@ respectively. Options should be placed before setting the colorscheme.
 
 ==============================================================================
 3. Airline and lightline Themes				*tokyonight-statusline*
-				      *tokyonight-airline* *tokyonight-lightline*
+				     *tokyonight-airline* *tokyonight-lightline*
 
 Themes for |Airline| and |lightline| are included. To enable in lightline: >
 
