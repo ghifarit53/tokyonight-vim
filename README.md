@@ -89,6 +89,7 @@ The lightline and airline styles will both follow the chosen colorscheme style.
 ### Port
 
 - [Alacritty](https://github.com/zatchheems/tokyo-night-alacritty-theme) by [zatchheems](https://github.com/zatchheems)
+- [Kitty](https://github.com/aerosol/tokyonight-kitty)
 
 .Xresources file available [here](./port) if you want to port it<br>
 Tell me if you made a port and i'll list them here<br>
