@@ -22,6 +22,9 @@ this colorscheme works best with [vim-polyglot](https://github.com/sheerun/vim-p
 - Customizable
 - [Italic support](https://github.com/sainnhe/icursive-nerd-font)
 
+If you are on Neovim 0.5.x and need support for plugins like Treesitter, native LSP, and
+other awesome plugins for Neovim, I recommend you to go for [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+
 ### Installation
 
 Using [vim-plug](https://github.com/junegunn/vim-plug)
@@ -101,4 +104,4 @@ Tell me if you made a port and i'll list them here<br>
 
 ### License
 
-[MIT](./LICENSE) © Ghifari Taqiuddin
+[MIT](./LICENSE)
